@@ -17,6 +17,7 @@ export const PRICING_TIERS = [
       "Email support",
       "Up to 100 participants",
     ],
+    popular: false,
   },
   {
     name: "Standard",
@@ -43,6 +44,7 @@ export const PRICING_TIERS = [
       "Analytics dashboard",
       "API access",
     ],
+    popular: false,
   },
   {
     name: "Premium+",
@@ -55,6 +57,7 @@ export const PRICING_TIERS = [
       "SLA guarantee",
       "On-premise option",
     ],
+    popular: false,
   },
 ] as const
 

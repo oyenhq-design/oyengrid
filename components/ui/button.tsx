@@ -12,13 +12,13 @@ export function Button({
   className,
   ...props
 }: ButtonProps) {
-  const baseStyles = "font-medium rounded-lg transition-colors inline-flex items-center justify-center"
+  const baseStyles = "font-medium rounded-lg transition-all duration-300 inline-flex items-center justify-center hover:scale-105"
 
   const variants = {
-    primary: "bg-blue-600 text-white hover:bg-blue-700",
-    secondary: "bg-slate-100 text-slate-900 hover:bg-slate-200",
-    outline: "border border-slate-200 text-slate-900 hover:bg-slate-50",
-    ghost: "text-slate-900 hover:bg-slate-100",
+    primary: "bg-[#C8A95A] text-black hover:bg-[#D4B86A] shadow-lg shadow-[#C8A95A]/20",
+    secondary: "bg-[#1F1F1F] text-[#A1A1AA] hover:text-white border border-[#1F1F1F]",
+    outline: "border border-[#C8A95A] text-[#C8A95A] hover:bg-[#C8A95A]/10",
+    ghost: "text-white hover:text-[#C8A95A]",
   }
 
   const sizes = {
@@ -48,13 +48,13 @@ export function ButtonLink({
   href,
   ...props
 }: ButtonLinkProps) {
-  const baseStyles = "font-medium rounded-lg transition-colors inline-flex items-center justify-center"
+  const baseStyles = "font-medium rounded-lg transition-all duration-300 inline-flex items-center justify-center hover:scale-105"
 
   const variants = {
-    primary: "bg-blue-600 text-white hover:bg-blue-700",
-    secondary: "bg-slate-100 text-slate-900 hover:bg-slate-200",
-    outline: "border border-slate-200 text-slate-900 hover:bg-slate-50",
-    ghost: "text-slate-900 hover:bg-slate-100",
+    primary: "bg-[#C8A95A] text-black hover:bg-[#D4B86A] shadow-lg shadow-[#C8A95A]/20",
+    secondary: "bg-[#1F1F1F] text-[#A1A1AA] hover:text-white border border-[#1F1F1F]",
+    outline: "border border-[#C8A95A] text-[#C8A95A] hover:bg-[#C8A95A]/10",
+    ghost: "text-white hover:text-[#C8A95A]",
   }
 
   const sizes = {

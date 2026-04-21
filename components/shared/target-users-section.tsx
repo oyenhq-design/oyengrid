@@ -11,14 +11,14 @@ const iconMap = {
 
 export function TargetUsersSection() {
   return (
-    <section id="for" className="py-16 md:py-24 bg-white">
+    <section id="for" className="py-16 md:py-24 bg-[#0B0B0F]">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">
             Built for organisations like yours
           </h2>
-          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg text-[#A1A1AA] max-w-2xl mx-auto">
             Whether you're running professional training, intensive bootcamps, or corporate programmes, OYEN Grid has you covered.
           </p>
         </div>
@@ -30,15 +30,15 @@ export function TargetUsersSection() {
             return (
               <div
                 key={idx}
-                className="p-8 rounded-2xl bg-gradient-to-br from-gray-50 to-white border border-gray-200 hover:border-blue-300 hover:shadow-lg transition-all"
+                className="p-8 rounded-2xl bg-[#121212] border border-[#1F1F1F] hover:border-[#C8A95A] hover:shadow-lg hover:shadow-[#C8A95A]/10 transition-all duration-300 hover:-translate-y-1"
               >
-                <div className="w-14 h-14 rounded-lg bg-blue-100 flex items-center justify-center mb-4">
-                  <Icon className="w-7 h-7 text-blue-600" />
+                <div className="w-14 h-14 rounded-lg bg-[#C8A95A]/10 flex items-center justify-center mb-4">
+                  <Icon className="w-7 h-7 text-[#C8A95A]" />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                <h3 className="text-xl font-semibold text-white mb-3">
                   {user.title}
                 </h3>
-                <p className="text-gray-600 leading-relaxed">
+                <p className="text-[#A1A1AA] leading-relaxed">
                   {user.description}
                 </p>
               </div>
@@ -47,5 +47,4 @@ export function TargetUsersSection() {
         </div>
       </div>
     </section>
-  )
-}
+  )\n}
