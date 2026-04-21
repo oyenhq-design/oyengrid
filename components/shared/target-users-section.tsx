@@ -47,4 +47,5 @@ export function TargetUsersSection() {
         </div>
       </div>
     </section>
-  )\n}
+  )
+}
